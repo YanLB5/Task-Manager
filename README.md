@@ -1,41 +1,44 @@
-# Task Manager
+# Task manager
+A Task-Manager api using MongoDB, and Node.js with real-time Create, Read, Update, and Delete operations ready to be consumed by the front-end
 
-![Task Manager Interface](https://github.com/YanLB5/Task-Manager-Interface/assets/129100238/696a6a87-e02a-4332-8139-4401c96a6262)
+<h2>Dependencies:</h2>
+<ul>
+  <li>Node</li>
+  <li>Express</li>
+  <li>MongoDB</li>
+  <li>Mongoose</li>
+  <li>Dotenv</li>
+</ul>
+<h2>With this API you can</h2>
 
-## Introduction
-Task Manager is a user-friendly web application built using React JS. It provides an intuitive interface for managing tasks, allowing users to create, delete, mark tasks as done, and view task details.
+<ul>
+    <li>Retrieve a list of all tasks</li>
+    <li>Retrieve details about one individual tasks, such as ID</li></li>
+    <li>Update task status such as title, and if was completed or not</li>
+    <li>Mark tasks as complete or incomplete.</li>
+</ul>
 
-## Features
-- Create new tasks: Users can easily create new tasks using the interface.
-- Delete tasks: Tasks can be deleted with a single click.
-- Mark tasks as done: Users can mark tasks as done to keep track of completed tasks.
-- View task details: Detailed information about each task is available for better understanding.
+<h2>Demonstrations:</h2>
 
-## Dependencies
-- React: The core library used for building the user interface.
-- Axios: A popular HTTP client library for making API requests.
+<strong>API being consumed by a random front-end interface</strong>
 
-## Usage Examples
+![Imagem do WhatsApp de 2023-06-06 à(s) 13 21 31](https://github.com/YanLB5/Crud-Node.js-with-MongoDB/assets/129100238/96e093fb-9915-4eb5-bfbc-29fbcd886b74)
 
-### Mark tasks as done
-![Mark tasks as done](https://github.com/YanLB5/Task-Manager-Interface/assets/129100238/e3a862da-dbec-4c63-a769-28d01ce245e5)
+<h2>Edit or Update:</h2>
 
-### Create a new task
-![Create a new task](https://github.com/YanLB5/Task-Manager-Interface/assets/129100238/7da4ef4e-18ed-4ed1-9714-f1fad4fa7f29)
+![Imagem do WhatsApp de 2023-06-06 à(s) 13 22 19](https://github.com/YanLB5/Crud-Node.js-with-MongoDB/assets/129100238/8f3d57e8-55b3-4072-80aa-2fd2e6a049f1)
 
-### Delete a task
-![Delete a task](https://github.com/YanLB5/Task-Manager-Interface/assets/129100238/fd220e0e-59b8-4b73-a352-91500b0904a0)
+<h2>How to run this API? </h2>
 
-### View task details
-![View task details](https://github.com/YanLB5/Task-Manager-Interface/assets/129100238/e9fde546-19eb-4b4a-8515-b483cd2a4a92)
+<strong>To run the Task Manager API locally, follow these steps:</strong>
 
-## How to Run?
+<ul>
+  <li>Clone the repository</li>
+  <li>Install dependencies using your preferred package manager</li>
+  <li>Set up the environment variables required for configuration, such as database connection details or authentication credentials</li>
+  <li>Start the server with "npm start"</li>
+<ul>
 
-To run the Task Manager locally, follow these steps:
 
-1. Clone the repository.
-2. Install dependencies using your preferred package manager.
-3. Set up the required environment variables for configuration.
-4. Start the server by running `npm start`.
 
-Enjoy managing your tasks with ease using the Task Manager interface!
+
