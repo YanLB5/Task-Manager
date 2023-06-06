@@ -32,10 +32,12 @@ A Task-Manager api using MongoDB, and Node.js with real-time Create, Read, Updat
 
 <strong>To run the Task Manager API locally, follow these steps:</strong>
 
-<li>Clone the repository</li>
-<li>Install dependencies using your preferred package manager</li>
-<li>Set up the environment variables required for configuration, such as database connection details or authentication credentials</li>
-<li>Start the server with "npm start"</li>
+<ul>
+  <li>Clone the repository</li>
+  <li>Install dependencies using your preferred package manager</li>
+  <li>Set up the environment variables required for configuration, such as database connection details or authentication credentials</li>
+  <li>Start the server with "npm start"</li>
+<ul>
 
 
 
